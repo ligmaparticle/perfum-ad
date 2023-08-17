@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  margin: auto;
+  height: 1440px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.image {
+  width: 100%;
+  margin-bottom: -4px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.whole-div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 600px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding-right: 40px;
+  background-color: white;
+}
+
+.text-div {
+  margin-top: 5px;
+  font-family: Montserrat;
+  width: 400px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.sub1 {
+  padding-top: 25px;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.sub2 {
+  font-size: 30px;
+}
+
+.sub3 {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.sub4 {
+  font-size: 30px;
+  width: 120px;
+  color: hsl(158, 36%, 37%);
+}
+
+.sub5 {
+  font-size: 14px;
+  margin-left: 20px;
+  color: hsl(228, 12%, 48%);
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  margin-top: 30px;
+  padding: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 275px;
+  margin-top: -1px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.cart-image {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.button:active {
+  background-color: hsl(158, 36%, 37%);
+  transition: none;
+}
